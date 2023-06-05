@@ -4,8 +4,9 @@
 
 n = int(input('Введит число: '))
 sum = 0
+num = n
 while n > 0:
     x = n % 10
     sum = sum + x
     n = n // 10
-print(f'Сумма цифр в числе равна {sum}')
+print(f'Сумма цифр в числе {num} равна {sum}')
